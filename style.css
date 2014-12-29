@@ -28,13 +28,13 @@ header {
 	position: relative;
 }
 .content__main {
-	display: table;
 	margin-top: 15px;
 	padding: 0 30px 30px;
 }
 .content-main__menu {
 	font-size: 13px;
-	display: table-cell;
+	float: left;
+	display: table;
 	text-align: left;
 	width: 152px;
 }
@@ -55,7 +55,7 @@ li {
 	text-decoration: underline;
 }
 .content-main__center {
-	display: table-cell;
+	display: table;
 	width: 610px;
 }
 .footer {
@@ -67,4 +67,32 @@ li {
 	display: inline-block;
 	height: 66px;
 	width: 132px;
+}
+.navigation {
+	display: table-cell;
+	float: left;
+	height: 200px;
+	width: 300px;
+}
+.navigation__pic {
+	float: left;
+	height: 85px;
+	width: 85px;
+}
+.navigation-desc__button {
+	background-color: #73A6DA;
+	border-radius: 5px;
+	color: #fff;
+	display: inline-block;
+	padding: 5px;
+	width: 150px;}
+.navigation-desc__button:hover {
+	background-color: #5F85BA;
+}
+.navigation__desc {
+	float: right;
+	width: 215px;
+}
+.navigation-desc__text {
+	padding: 5px;
 }
