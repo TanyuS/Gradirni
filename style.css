@@ -61,11 +61,12 @@ li {
 .footer {
 	bottom: 10px;
 	right: 10px;
-	position: absolute;
+	text-align: right;
 }
 .firm-label {
 	display: inline-block;
 	height: 66px;
+	margin: 0 20px 20px 0;
 	width: 132px;
 }
 .navigation {
@@ -85,7 +86,8 @@ li {
 	color: #fff;
 	display: inline-block;
 	padding: 5px;
-	width: 150px;}
+	width: 160px;
+}
 .navigation-desc__button:hover {
 	background-color: #5F85BA;
 }
