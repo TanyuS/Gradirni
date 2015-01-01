@@ -38,13 +38,12 @@ header {
 	text-align: left;
 	width: 152px;
 }
-ul {
-	margin-left: 22px
-}
 li {
-	list-style-image: url("/images/drop.png") no-repeat transparent 0 0;
-	list-style-type: square;
+	background: url("./images/drop.png") no-repeat transparent left top;
+	list-style-type: none;
+	line-height: 22px;
 	margin: 7px 0;
+	padding-left: 20px;
 }
 .left-menu__text {
 	color: #707070;
