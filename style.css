@@ -96,9 +96,12 @@ li {
 }
 .navigation-desc__button {
 	background-color: #73A6DA;
+	border: none;
 	border-radius: 5px;
 	color: #fff;
+	cursor: pointer;
 	display: inline-block;
+	height: 28px;
 	padding: 5px;
 	width: 160px;
 }
