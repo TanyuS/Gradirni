@@ -65,15 +65,30 @@ li {
 	width: 610px;
 }
 .footer {
-	bottom: 10px;
-	right: 10px;
 	text-align: right;
 }
-.firm-label {
+.footer__text {
+	bottom: 10px;
+	color: #1d1b1b;
+	font-size: 12px;
+	font-family: arial. sans-serif;
+	position: relative;
+	right: 10px;
+	text-align: left;
+	width: 146px;
 	display: inline-block;
-	height: 66px;
-	margin: 0 20px 20px 0;
-	width: 132px;
+}
+.firm-label {
+	color: #1d1b1b;
+	text-decoration: none;
+	font-size: 28px;
+}
+.firm-label img {
+	display: inline-block;
+	height: 32px;
+	margin-bottom: -7px;
+	margin-right: -6px;
+	width: 60px;
 }
 .navigation {
 	display: table-cell;
@@ -88,9 +103,12 @@ li {
 }
 .navigation-desc__button {
 	background-color: #73A6DA;
+	border: none;
 	border-radius: 5px;
 	color: #fff;
+	cursor: pointer;
 	display: inline-block;
+	height: 28px;
 	padding: 5px;
 	width: 205px;
 }
