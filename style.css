@@ -39,12 +39,19 @@ header {
 	width: 152px;
 }
 ul {
+    list-style-type: none;
+    padding: 0px;
 	margin-left: 22px
 }
 li {
-	list-style-image: url("/images/drop.png") no-repeat transparent 0 0;
-	list-style-type: square;
-	margin: 7px 0;
+    background-image: url(./images/drop.png);
+    background-repeat: no-repeat;
+    background-position: 0px center;
+    padding-left: 15px;
+    margin-bottom: 15px;
+}
+.left__menu {
+    margin: 0px;
 }
 .left-menu__text {
 	color: #707070;
@@ -52,7 +59,6 @@ li {
 }
 .left-menu__text:hover {
 	color: #000;
-	text-decoration: underline;
 }
 .content-main__center {
 	display: table;
@@ -86,7 +92,7 @@ li {
 	color: #fff;
 	display: inline-block;
 	padding: 5px;
-	width: 160px;
+	width: 205px;
 }
 .navigation-desc__button:hover {
 	background-color: #5F85BA;
