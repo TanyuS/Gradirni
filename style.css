@@ -2,29 +2,52 @@
 	margin: 0;
 	padding: 0;
 }
+
+@font-face {
+    font-family: Roboto;
+    src: url("./fonts/Roboto-Regular.ttf");
+}
+@font-face {
+    font-family: RobotoBoldItalic;
+    src: url("./fonts/Roboto-BoldItalic.ttf");
+}
+
+@font-face {
+    font-family: RobotoLight;
+    src: url("./fonts/Roboto-Light.ttf");
+}
+
+@font-face {
+    font-family: RobotoItalic;
+    src: url("./fonts/Roboto-Italic.ttf");
+}
+
+body {
+    font-family: Roboto;
+}
 .wrapper {
 	display: block;
 	margin: 0 auto;
 	text-align: center;
-	width: 829px;
+	width: 925px;
 }
 header {
-	background: url("./images/header.png") no-repeat transparent 0 0;
-	height: 366px;
+	background: url("./images/header_l.png") no-repeat transparent 0 0;
+	height: 408px;
 	text-align: left;
-	width: 829px;
+	width: 925px;
 }
 .phone {
 	background-color: rgba(255,255,255,.3);
 	color: #6286C4;
-	font-family: Verdana, sans-serif;
 	font-size: 20px;
+    font-weight: bold;
 	line-height: 46px;
 	padding: 15px; 
 }
 .content {
-	background: url("./images/main.png") transparent no-repeat bottom center;
-	min-height: 419px;
+	background: url("./images/main_l.png") transparent no-repeat bottom center;
+	min-height: 467px;
 	position: relative;
 }
 .content__main {
@@ -37,6 +60,10 @@ header {
 	display: table;
 	text-align: left;
 	width: 152px;
+}
+.email {
+    font-family: Roboto;
+    font-size: 14px;
 }
 ul {
     list-style-type: none;
@@ -55,6 +82,8 @@ li {
 }
 .left-menu__text {
 	color: #707070;
+    font-family: RobotoLight;
+    font-size: 14px;
 	text-decoration: none;
 }
 .left-menu__text:hover {
@@ -62,26 +91,30 @@ li {
 }
 .content-main__center {
 	display: table;
-	width: 610px;
+	width: 710px;
 }
 .footer {
 	text-align: right;
 }
+
+.footer, .footer a {
+    color: #1d8be2;
+    text-shadow:1px 1px 5px white;
+}
 .footer__text {
-	bottom: 10px;
-	color: #1d1b1b;
+	bottom: 20px;
 	font-size: 12px;
-	font-family: arial. sans-serif;
+	font-family: RobotoItalic;
 	position: relative;
 	right: 10px;
 	text-align: left;
-	width: 146px;
+	width: 200px;
 	display: inline-block;
 }
 .firm-label {
-	color: #1d1b1b;
 	text-decoration: none;
-	font-size: 28px;
+    font-family: RobotoBoldItalic;
+	font-size: 38px;
 }
 .firm-label img {
 	display: inline-block;
@@ -94,7 +127,8 @@ li {
 	display: table-cell;
 	float: left;
 	height: 200px;
-	width: 300px;
+	width: 345px;
+    padding-left: 10px;
 }
 .navigation__pic {
 	float: left;
@@ -108,17 +142,23 @@ li {
 	color: #fff;
 	cursor: pointer;
 	display: inline-block;
-	height: 28px;
+    font-family: RobotoBoldItalic;
+    font-size: 16px;
+	height: 32px;
 	padding: 5px;
-	width: 205px;
+	width: 250px;
 }
 .navigation-desc__button:hover {
 	background-color: #5F85BA;
 }
 .navigation__desc {
 	float: right;
-	width: 215px;
+	width: 250px;
+    padding-left: 5px;
+    padding-right: 5px;
 }
 .navigation-desc__text {
-	padding: 5px;
+    font-family: RobotoLight;
+    text-align: left;
+    padding: 15px 5px 5px 5px;
 }
