@@ -25,6 +25,9 @@
 body {
     font-family: Roboto;
 }
+section {
+	display: table;
+}
 .wrapper {
 	display: block;
 	margin: 0 auto;
@@ -52,12 +55,13 @@ header {
 }
 .content__main {
 	margin-top: 15px;
-	padding: 0 30px 30px;
+	min-height: 180px;
+	padding: 0 30px 101px;
 }
 .content-main__menu {
 	font-size: 13px;
 	float: left;
-	display: table;
+	display: block;
 	text-align: left;
 	width: 152px;
 }
@@ -94,6 +98,10 @@ li {
 	width: 710px;
 }
 .footer {
+	bottom: 10px;
+	margin-top: -101px;
+	position: relative;
+	right: 0;
 	text-align: right;
 }
 
@@ -102,11 +110,8 @@ li {
     text-shadow:1px 1px 5px white;
 }
 .footer__text {
-	bottom: 20px;
 	font-size: 12px;
 	font-family: RobotoItalic;
-	position: relative;
-	right: 10px;
 	text-align: left;
 	width: 200px;
 	display: inline-block;
@@ -129,6 +134,10 @@ li {
 	height: 200px;
 	width: 345px;
     padding-left: 10px;
+}
+.navigation_contacts {
+	text-align: left;
+	width: auto;
 }
 .navigation__pic {
 	float: left;
@@ -156,6 +165,13 @@ li {
 	width: 250px;
     padding-left: 5px;
     padding-right: 5px;
+}
+.navigation__desc_contacts {
+	font-family: RobotoLight;
+	font-size: 14px;
+	line-height: 24px;
+	margin-left: 15px;
+	width: auto;
 }
 .navigation-desc__text {
     font-family: RobotoLight;
