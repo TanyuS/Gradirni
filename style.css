@@ -168,7 +168,7 @@ li {
 }
 .navigation__desc_contacts {
 	font-family: RobotoLight;
-	font-size: 14px;
+	font-size: 16px;
 	line-height: 24px;
 	margin-left: 15px;
 	width: auto;
@@ -178,3 +178,38 @@ li {
     text-align: left;
     padding: 15px 5px 5px 5px;
 }
+.about-gradirnya {
+	font-family: RobotoLight;
+	font-size: 14px;
+	line-height: 20px;
+	padding: 0 20px 30px;
+	text-align: left;
+}
+.about-gradirnya__blue {
+	color: #39ACE2;
+}
+.about-gradirnya__for-pic {
+	margin: 20px 0 40px;
+	text-align: center;
+}
+.about-gradirnya__pic {
+	margin: 40px 0 20px;
+}
+.about-gradirnya-for-pic__number {
+	font-weight: bold;
+}
+.about-gradirnya-for-pic__text {
+	padding-right: 10px;
+}
+.about-gradirnya p {
+	margin: 20px 0;
+	text-indent: 16px;
+}
+.about-gradirnya__pros {
+	margin: 20px 0;
+}
+.about-gradirnya__pros li {
+	background-image: none;
+}
+.about-gradirnya__pros li:before{ content:"—"; position:relative; left:-5px;}
+.about-gradirnya__pros li{ text-indent:-11px; }
