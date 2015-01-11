@@ -56,7 +56,7 @@ header {
 .content__main {
 	margin-top: 15px;
 	min-height: 180px;
-	padding: 0 30px 101px;
+	padding: 0 30px 120px;
 }
 .content-main__menu {
 	font-size: 13px;
@@ -213,3 +213,68 @@ li {
 }
 .about-gradirnya__pros li:before{ content:"—"; position:relative; left:-5px;}
 .about-gradirnya__pros li{ text-indent:-11px; }
+.about-gradirnya__pros_water {
+	margin: -15px 0 20px;
+}
+.about-gradirnya__pros_water li{
+	margin: 5px 0;
+}
+.catalogue__element {
+	display: block;
+	margin-bottom: 50px;
+}
+.catalogue-element__pic {
+	display: inline-block;
+	float: left;
+	margin-right: 15px;
+	margin-top: 15px;
+	width: 165px;
+}
+caption {
+	color: #39ACE2;
+	font-family: RobotoItalic;
+	font-size: 16px;
+	margin: 10px auto;
+	text-transform: uppercase;
+}
+.calatogue-element__table {
+	display: inline-block;
+	font-family: RobotoLight;
+	font-size: 15px;
+	border-collapse: collapse;
+	width: auto;
+}
+td {
+	border: 1px solid black;
+}
+.table__left {
+	text-align: left;
+	width: 460px;
+	padding: 0 2px;
+}
+.table__right {
+	width: 62px;
+}
+.pagination {
+	color: #39ACE2;
+	font-size: 16px;
+	font-family: RobotoItalic;
+	margin-bottom: 30px;
+}
+.pagination__part {
+	padding: 3px 7px;
+}
+.pagination__current-page {
+	border-radius: 6px;
+	-webkit-box-shadow: inset 0px 0px 10px 0px rgb(139, 195, 237);
+	-moz-box-shadow:    inset 0px 0px 10px 0px rgb(139, 195, 237);
+	box-shadow:         inset 0px 0px 10px 0px rgb(139, 195, 237);
+}
+.pagination__link-page {
+	color: #39ACE2;
+	text-decoration: none;
+}
+.pagination__link-page:hover {
+	color: #39ACE2;
+	text-decoration: underline;
+}
